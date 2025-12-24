@@ -1,4 +1,4 @@
-# 📘 NYGHTSHADE Unreal Plugin — Documentation
+<<<<<<< HEAD
 
 ## Overview
 NYGHTSHADE Unreal Plugin is an Unreal Engine editor plugin that enables AI-driven automation, asset introspection, and large-scale project manipulation through a deterministic, machine-readable interface.
@@ -7,13 +7,7 @@ NYGHTSHADE allows AI tools (Cursor, local LLMs, Python agents, or custom systems
 
 ### Key Principles
 - AI-first, editor-native automation
-- Deterministic and auditable execution
-- Local & offline model support
-- No cloud APIs or subscriptions
-- Safe by design (validation, logging, rollback)
-
 ---
-
 ## 📦 Installation
 1. Copy the `NYGHTSHADEUnrealPlugin` folder into:
    ```
@@ -23,7 +17,6 @@ NYGHTSHADE allows AI tools (Cursor, local LLMs, Python agents, or custom systems
 3. Restart the editor
 
 ---
-
 ## 🔌 Architecture
 ```
 NYGHTSHADEUnrealPlugin/
@@ -42,15 +35,10 @@ NYGHTSHADEUnrealPlugin/
 ```
 
 ---
-
 ## 🤖 AI Integration Model
 NYGHTSHADE exposes structured commands that any AI system can generate.
 
 - JSON-based
-- Strongly typed
-- Validated before execution
-- Optional dry-run mode
-
 **Example:**
 ```json
 {
@@ -62,35 +50,21 @@ NYGHTSHADE exposes structured commands that any AI system can generate.
 ```
 
 ---
-
 ## 🛡 Safety Model
 - Read-only vs write commands
-- Property whitelisting
-- Dry-run diffs
-- Full change logs
-- Undo / rollback support
-
 AI can act — but never blindly.
 
 ---
-
 ## 🧪 Typical Use Cases
 - Weapon balancing
-- AI tuning
-- NPC stat normalization
 - Variant generation
 - Large-scale refactors
 - Rapid prototyping pipelines
 
----
 
 # 🚀 Launch Announcement
 
 **NYGHTSHADE Unreal Plugin is now available.**
-
-NYGHTSHADE connects Unreal Engine directly to AI-driven automation systems, enabling Cursor, local LLMs, and offline agents to safely inspect and modify Unreal projects at scale.
-
-- No cloud APIs.
 - No subscriptions.
 - No editor micromanagement.
 
@@ -102,21 +76,12 @@ NYGHTSHADE is the missing link.
 
 ---
 
-# 💰 Pricing Tiers (Early Access)
 
 | Tier         | Price         | Features                                                                                 | Best For                |
-|--------------|--------------|------------------------------------------------------------------------------------------|-------------------------|
-| Indie        | $5           | Full core plugin, local/offline AI, asset introspection, bulk editing, logging, rollback | Solo devs, indie teams  |
-| Pro          | $20 / seat   | Everything in Indie, advanced automation, conditional workflows, presets, priority updates| Small teams, production |
-| Studio/Ent.  | Custom       | Multi-user, audit trails, CI-style automation, headless workflows, direct support         | Studios, enterprises    |
-
 > ⚠️ Early pricing is temporary. More automation features = higher price.
 
 ---
-
 # 🎥 Demo Script
-
-**“AI Rebalances an Entire Weapon System”**
 
 - Scene 1 — Problem  
   “This project has 120 weapon assets. Manual balancing takes hours.”
@@ -177,3 +142,7 @@ NYGHTSHADE transforms Unreal Engine from a UI-driven editor into an automation-c
 ---
 
 This bundle is ready for direct use in your documentation, marketplace, or internal knowledge base. If you need further customization or additional sections, just let me know!
+=======
+# GIT-BRAXTONCONFIGDOWNLOADPLUGINUE5
+GIT-BRAXTONCONFIGDOWNLOADPLUGINUE5 UNREAL ENGINE 5
+>>>>>>> e7238acc8e917e230000727d186c0d8f00de4694
